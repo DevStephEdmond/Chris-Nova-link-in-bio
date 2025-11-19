@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/utilities" layer(utilities);
+
+/* Your custom theme tokens */
+@theme {
+  --font-primary: "Inter", sans-serif;
+
+  --color-brand-900: #0d0d0f;
+  --color-brand-700: #18181b;
+  --color-brand-500: #6366f1;
+  --color-brand-accent: #f1f1f1;
+}
